@@ -483,15 +483,12 @@
 	</div>
 </div>
 
-<Button
-	size="sm"
-	variant="ghost"
-	onclick={toggleMode}
-	href="https:unin.io/@jason"
-	class="absolute bottom-2 right-2 text-muted-foreground"
->
-	Made by @jason
-</Button>
+<div class="absolute bottom-2 right-2 flex gap-2">
+	<Button size="sm" variant="ghost" href="https:unin.io/@jason">Made by @jason</Button>
+	<Button size="sm" variant="outline" href="https://github.com/jason1610/PixelAttack">
+		<Github class="h-4 w-4" />
+	</Button>
+</div>
 
 <canvas hidden bind:this={colorCanvas}></canvas>
 
