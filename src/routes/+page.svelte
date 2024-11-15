@@ -484,8 +484,15 @@
 </div>
 
 <div class="absolute bottom-2 right-2 flex gap-2">
-	<Button size="sm" variant="ghost" href="https:unin.io/@jason">Made by @jason</Button>
-	<Button size="sm" variant="outline" href="https://github.com/jason1610/PixelAttack">
+	<Button size="sm" variant="ghost" href="https://unin.io/@jason" target="_blank"
+		>Made by @jason</Button
+	>
+	<Button
+		size="sm"
+		variant="outline"
+		href="https://github.com/jason1610/PixelAttack"
+		target="_blank"
+	>
 		<Github class="h-4 w-4" />
 	</Button>
 </div>
