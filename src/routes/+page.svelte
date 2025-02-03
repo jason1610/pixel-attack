@@ -484,9 +484,14 @@
 </div>
 
 <div class="absolute bottom-2 right-2 flex gap-2">
-	<Button size="sm" variant="ghost" href="https://unin.io/@jason" target="_blank"
-		>Made by @jason</Button
+	<Button
+		size="sm"
+		variant="ghost"
+		href="https://bsky.app/profile/jason1610.bsky.social"
+		target="_blank"
 	>
+		Made by @jason
+	</Button>
 	<Button
 		size="sm"
 		variant="outline"
