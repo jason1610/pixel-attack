@@ -33,7 +33,7 @@ jobs:
           path: 'build/'
 
   deploy:
-    needs: build-site
+    needs: build_site
     runs-on: ubuntu-latest
 
   permissions:
