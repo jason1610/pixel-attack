@@ -33,8 +33,12 @@ jobs:
           path: 'build/'
 
   deploy:
-    needs: build
+    needs: build-site
     runs-on: ubuntu-latest
+
+  permissions:
+      pages: write
+      id-token: write
 
     environment:
       name: github-pages
