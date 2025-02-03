@@ -31,7 +31,7 @@ jobs:
         run: ls -R build
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: 'build/'
           name: 'github-pages'
@@ -51,6 +51,6 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v3
         with:
           artifact_name: 'github-pages'
