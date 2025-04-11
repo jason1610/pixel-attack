@@ -487,7 +487,7 @@
 	<Button
 		size="sm"
 		variant="ghost"
-		href="https://bsky.app/profile/jason1610.bsky.social"
+		href="https://bsky.app/profile/1610.io"
 		target="_blank"
 	>
 		Made by @jason
